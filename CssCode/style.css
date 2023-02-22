@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  
+    font-family: 'poppins', sans-serif;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+
+header{
+ background-color: rgba(255, 255, 255, 0.97);
+ width: 100%;
+ position: fixed;
+ z-index: 999;
+ display: flex;
+ justify-content: space-between;
+ align-items:center ;
+ padding: 7px 100px;
+ 
+}
+
+
+.logo{
+    text-decoration: none;
+    color:#448fea;
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: 1.8em;    
+
+}
+
+
+
+
+.navigation a{
+    color: #0939f8;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 35px;
+ 
+}
+.navigation a:hover{
+  color:#f76540 ;
+ 
+  
+}
+
+section{
+    padding: 200px 200px;
+
+}
+
+.main{
+  padding-left: 100px;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background : url(../upload/me.png) no-repeat ; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: 500;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 10 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: 0.15em; Adjust as needed */
+  /* animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite; */
+}
+
+/* The typing effect
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #021327 } }*/
+
+ .container{
+  width: 100%;
+ 
+ }
+ .container .text{
+  position: relative;
+  color: #ffff00;
+  font-size: 30px;
+  font-weight: 600;
+
+
+ }
+ .container .text.first-text{
+color: #fff;
+ }
+ 
+ 
+
+
+
+
+.main h3 span{
+  display: inline-block;
+  margin-top: 10px ;
+  color: #4e9eff;
+  font-size: 2.7em;
+  font-weight: 700;
+}
+
+
+h3:hover span{
+
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(255, 255, 255),
+               0 0 15px rgb(14, 96, 247), 
+               0 0 25px rgb(59, 44, 189);
+
+              }
+
+.main h4{
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main-btn {
+  color: #fff;
+  background-color: #1750ee;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9em 2.4em ;
+ letter-spacing: 1px;
+ border-radius: 15px;
+ margin-bottom: 40px;
+ transition: 0.5s ease;
+}
+.main-btn:hover{
+  background-color: #0024f1;
+  transform: scale(1.1); /*(x,y)*/
+}
+.social-icons a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 1.7em;
+  font-weight: 600;
+  display: inline-block;
+ padding: .5em .5em;
+ letter-spacing: 2px;
+ border-radius: 5px;
+ margin-bottom: 10px;
+ transition: 0.5s ease;
+
+
+}
+
+.social-icons a:hover{
+  background-color: #0d065fa4;
+  transform: scale(.5); /*(x,y)*/
+}
+
+.title {
+  display: flex;
+ justify-content: center;
+ color: #3a6cf4;
+ font-size: 2.2em;
+ font-weight: 800;
+ margin: 30px;
+
+}
+
+
+.content{
+ display: flex ;
+ justify-content: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+}
+.card{
+  background-color: #fff;
+  width:20em;
+  text-decoration: none;
+ box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+ border-radius: 10px;
+ padding: 15px;
+ margin: 12px;
+transition: 0.7s ease;
+}
+.icon{
+  color: #3a6cf4;
+  font-size: 8em;
+  text-align: center;
+  
+  }
+  .icon :hover{
+    transform: scale(1.1);
+  }
+.icon1 {
+color: #3a6cf4;
+font-size: 8em;
+text-align: center;
+
+}
+.icon1 :hover{
+  transform: scale(1.1);
+}
+.icon2{
+  color: #3a6cf4;
+  font-size: 7em;
+  text-align: center;
+  
+  
+}
+.icon2 :hover{
+  transform: scale(1.1);
+}
+.info{
+  text-align: center;
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+
+.contact .icon{
+  font-size: 4.5em;
+}
+
+.contact .info a  {
+  color: #000;
+text-decoration: none;
+
+}
+
+.contact .info a :hover {
+
+transform: scale(1.1);
+}
+
+
+
+
+.projects {
+  background-color: #000016;
+}
+
+.projects .content{
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.project-card:hover {
+ transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+  opacity: 0.9;
+}
+
+.project-image img{
+  width: 100%
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project-category {
+  font-size: 0.8em;
+  color: #000;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.more-details {
+  text-decoration: none;
+  color: #3a6cf4;
+}
+
+.more-details:hover {
+  color: #601cfc;
+}
+
+
+
+.footer {
+  background-color: #040430;
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: #3a6cf4;
+}
+
+.footer .social-icons a{
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
+}
+
+@media (max-width:1023px){
+  header{
+      padding: 12px 20px;
+  }
+
+  .navigation a{
+      padding-left: 10px;
+  }
+
+  .title{
+      font-size: 1.8em;
+  }
+
+  section{
+      padding: 80px 20px;
+  }
+
+  .main-content h2{
+      font-size: 1em;
+  }
+
+  .main-content h3{
+      font-size: 1.6em;
+  }
+
+  .content{
+      flex-direction: column;
+      align-items: center;
+  }
+
+}
+
+@media (max-width:641px){
+  body{
+      font-size: 12px;
+  }
+
+  .main-content h2{
+      font-size: 0.8em;
+  }
+
+  .main-content h3{
+      font-size: 1.4em;
+  }
+}
+
+@media (max-width:300px){
+  body{
+      font-size: 10px;
+   
+  }
+}
+
+
+
+
+
+
+/* h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 245, 245);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  /* li a:hover {
+    background-color: rgb(53, 52, 52);
+  }
+
+
+
+
+} */ 
+/* body{
+    min-height: 5000px;}  */
